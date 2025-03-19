@@ -8,5 +8,8 @@
   },
   "author": "flavioagreda1990@gmail.com",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
