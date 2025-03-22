@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/notes/67df3c8906a855e052016834
+Content-Type: application/json
+
+{
+    "content": "Test MIDLEWARE ON",
+    "important": true
+}
