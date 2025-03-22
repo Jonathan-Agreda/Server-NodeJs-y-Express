@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+//require("dotenv").config();
 
 if (process.argv.length < 3) {
   console.log("give password as argument");
@@ -8,6 +9,7 @@ if (process.argv.length < 3) {
 const password = process.argv[2];
 
 const url = `mongodb+srv://jagreda:${password}@cluster0.pyiz2.mongodb.net/noteApp?retryWrites=true&w=majority`;
+//const url = process.env.MONGODB_URI;
 
 mongoose.set("strictQuery", false);
 
