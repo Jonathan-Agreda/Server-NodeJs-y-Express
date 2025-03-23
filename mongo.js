@@ -30,7 +30,7 @@ const Note = mongoose.model("Note", noteSchema);
 note.save().then((result) => {
   console.log("note saved!");
   mongoose.connection.close();
-}); 
+});
 
 const note2 = new Note({
   content: "Browser can execute only JavaScript",
@@ -40,7 +40,7 @@ const note2 = new Note({
 note2.save().then((result) => {
   console.log("note saved!");
   mongoose.connection.close();
-}); 
+});
 
 const note3 = new Note({
   content: "GET and POST are the most important methods of HTTP protocol",
